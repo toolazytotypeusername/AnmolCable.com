@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Anmol Cable | Home
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="functions.js"></script>
+    </head>
+<body>
+    <header>
+            <h1>Anmol Cable Services</h1>
+            <!-- <div class="Navbar">
+                <div class="Home">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="Info">
+                    <a href="info.html">Information</a>
+                </div>
+                <div class="Gallery">
+                    <a href="gallery.html">Gallery</a>
+                </div>
+                <div class="Contact">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div> -->
+    </header>
+    <main>
+        <img src="/Images/Cable.png" class="Cable">
+        <p class="Intro">Get<br> ⚡  lightning  ⚡  fast<br> internet at your fingertips.<br><br>
+            <a href="#price">
+            <button type="button" class="PlansB">Check Plans & Pricing</button>
+        </a>
+        </p>
+        <div class="Benefits">Benefits<br></div>
+        <div class="Grid">
+            <div class="Box"><img src="Images/Lightning.png" height="100px" width="100px"><br><b>Faster Speeds</b><br><br>We offer very <b> high speeds! </b><br>Starting from 30 Mbps all the way to 2 Gbps.</div>
+            <div class="Box"><img src="Images/Rupee.png" height="100px" width="80px"><br><b>Low Prices</b><br><br>Such high speeds can be availed at an <b> affordable </b> price.<br> From ₹300 to ₹800 per month.</div>
+            <div class="Box"><img src="Images/Router.png" height="100px" width="120px"><br><b>Quality Devices</b><br><br>All our devices are gold rated and <br>lorem ipsum lorem.</div>
+        </div>
+        <div class="Test"></div>
+        <div class="People" id="demo"></div>
+            <div class="Ptext">Hear from the people!</div>
+        <div class="HolderM">
+            <div class="Holder"><img src="Images/Person.png" height="100px" width="100px" style="background-color: white; border-radius: 500px; padding: 5px 5px 5px 5px;"><br><b>Person Name</b><br><br>Best ISP in the area! Excellent <b>speed</b> and <b>connectivity</b>.</div>
+            <div class="Holder"><img src="Images/Person.png" height="100px" width="100px" style="background-color: white; border-radius: 500px; padding: 5px 5px 5px 5px;"><br><b>Person Name</b><br><br>Best ISP in the area! Excellent <b>speed</b> and <b>connectivity</b>.</div>
+            <div class="Holder"><img src="Images/Person.png" height="100px" width="100px" style="background-color: white; border-radius: 500px; padding: 5px 5px 5px 5px;"><br><b>Person Name</b><br><br>Best ISP in the area! Excellent <b>speed</b> and <b>connectivity</b>.</div>
+            <div class="Holder"><img src="Images/Person.png" height="100px" width="100px" style="background-color: white; border-radius: 500px; padding: 5px 5px 5px 5px;"><br><b>Person Name</b><br><br>Best ISP in the area! Excellent <b>speed</b> and <b>connectivity</b>.</div>
+        </div>
+            <div class="Pricing" id="price"><b>Plans and Pricing</b>
+            <!-- <button type="button" class="drpbtn">Duration</button>
+            <div class="drpdwnc">
+                <button type="button" class="sixm">6 Months</button>
+                <button type="button" class="twem">12 Months</button>
+            </div> -->
+            <div class="Duration">Duration
+                <select class="Selector">
+                    <option onclick="display0()" value="0">-----</option>
+                    <option  onclick="display6()"  value="1">6 Months</option>
+                    <option onclick="display12()" value="2">12 Months</option>
+                </select>
+            </div>
+            <div class="sixm" id="sixm">
+                <div class="sixm1"><div class="headertext">Basic <br> ______________</div><br> Duration:  <span class="details" style="color: #5578ce;"> 6 Months </span><br><br> Speed:  <span class="details" style="color: #5578ce;">30 Mbps </span><br><br> Price: <span class="details" style="color: #5578ce;">₹300</span></div>
+                <div class="sixm2"><div class="headertext">Value <br> ______________</div><br> Duration: <span class="details" style="color: #5578ce;">6 Months</span> <br><br> Speed: <span class="details" style="color: #5578ce;">50 Mbps</span> <br><br> Price: <span class="details" style="color: #5578ce;">₹400</span></div>
+                <div class="sixm3"><div class="headertext">Premium <br> ______________</div><br> Duration: <span class="details" style="color: #5578ce;">6 Months</span> <br><br> Speed: <span class="details" style="color: #5578ce;">100 Mbps</span> <br><br> Price: <span class="details" style="color: #5578ce;">₹600</span></div>
+            </div>
+            <div class="twelvem" id="twelvem">
+                <div class="twelvem1"><div class="headertext">Basic <br> ______________</div><br> Duration: <span class="details" style="color: #5578ce;">12 Months </span><br><br> Speed: <span class="details" style="color: #5578ce;">30 Mbps </span><br><br> Price: <span class="details" style="color: #5578ce;">₹400</span></div>
+                <div class="twelvem2"><div class="headertext">Value <br> ______________</div><br> Duration: <span class="details" style="color: #5578ce;">12 Months</span> <br><br> Speed: <span class="details" style="color: #5578ce;">50 Mbps</span> <br><br> Price: <span class="details" style="color: #5578ce;">₹500</span></div>
+                <div class="twelvem3"><div class="headertext">Premium <br> ______________</div><br> Duration: <span class="details" style="color: #5578ce;">12 Months</span> <br><br> Speed: <span class="details" style="color: #5578ce;">100 Mbps</span> <br><br> Price: <span class="details" style="color: #5578ce;">₹700</span></div>
+            </div>
+        </div>
+        <div class="Contact">Contact Us
+            <div class="cinf">Phone Number: <span class="details" style="color: #093fc6;">+91-9929384939</span></div>
+            <div class="cinf">Email: <span class="details" style="color: #093fc6;">anandcable@gmail.com</span></div>
+            <div class="cinf">Address: <span class="details" style="color: #093fc6; text-align: right;">123 Building, <br> On top of the the Hill, <br> There.</span></div>
+            <div class="cinf" id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4750.53622671155!2d72.95172902515874!3d19.085580689600754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1713602352186!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </main>
+    <footer>
+        <div class="Footer">
+            <p><b>Copyright Anmol Cable Services TM</b></p>
+        </div>
+    </footer>
+</body>
+</html>
